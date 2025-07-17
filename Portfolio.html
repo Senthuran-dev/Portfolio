@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Murugeshkumar Senthuran | Software Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body class="bg-gray-50 font-sans scroll-smooth">
+  <!-- Navigation Bar -->
+  <nav class="bg-gray-900 text-white shadow-lg fixed w-full z-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <a href="#home" class="text-xl font-bold text-yellow-400">MS</a>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="hover:text-yellow-400 transition">Home</a>
+          <a href="#about" class="hover:text-yellow-400 transition">About</a>
+          <a href="#projects" class="hover:text-yellow-400 transition">Projects</a>
+          <a href="#contact" class="hover:text-yellow-400 transition">Contact</a>
+        </div>
+        <button class="md:hidden focus:outline-none" id="menu-toggle">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="md:hidden hidden py-2" id="mobile-menu">
+        <a href="#home" class="block py-2 hover:text-yellow-400">Home</a>
+        <a href="#about" class="block py-2 hover:text-yellow-400">About</a>
+        <a href="#projects" class="block py-2 hover:text-yellow-400">Projects</a>
+        <a href="#contact" class="block py-2 hover:text-yellow-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white pt-16 px-4">
+    <div class="text-center max-w-2xl">
+      <img src="boy.png" alt="Avatar" class="rounded-full w-36 h-36 mx-auto mb-8 border-4 border-yellow-400 object-cover">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Murugeshkumar Senthuran</h1>
+      <h2 class="text-2xl md:text-3xl mb-6 text-yellow-400">
+        <span id="typed"></span>
+      </h2>
+      <p class="text-lg text-gray-300 mb-8">Building secure, scalable systems with modern technologies</p>
+      <div class="space-x-4">
+        <a href="resume.pdf" download class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold px-6 py-3 rounded-lg inline-block transition">
+          Download Resume
+        </a>
+        <a href="#contact" class="border-2 border-white hover:border-yellow-400 hover:text-yellow-400 text-white font-bold px-6 py-3 rounded-lg inline-block transition">
+          Contact Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-20 bg-white px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">About Me</h2>
+      <div class="grid md:grid-cols gap-12">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-gray-800">Background</h3>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            I am a BEng (Hons) Software Engineering undergraduate at the Informatics Institute of Technology (IIT), affiliated with the University of Westminster. 
+            I believe in the power of collaboration, continuous learning, and building meaningful software solutions. By actively engaging with a diverse community 
+            of peers, mentors, and real-world projects, I aim to deepen my understanding of modern technologies and contribute effectively to the evolving tech landscape.
+          </p>
+          
+          <h3 class="text-2xl font-semibold mb-4 text-gray-800 mt-8">Education</h3>
+          <div class="space-y-4">
+            <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-yellow-500">
+              <h4 class="font-bold text-gray-800">BEng (Hons) in Software Engineering</h4>
+              <p class="text-gray-600">Informatics Institute of Technology (2024 - Present)</p>
+            </div>
+            <div class="bg-gray-50 p-5 rounded-lg border-l-4 border-yellow-500">
+              <h4 class="font-bold text-gray-800">Foundation Certificate in Higher Education</h4>
+              <p class="text-gray-600">IIT, Sri Lanka (Distinction Pass)</p>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-2xl font-semibold mb-4 text-gray-800">Skills</h3>
+          
+          <div class="mb-8">
+            <h4 class="font-bold text-gray-700 mb-3">Technical</h4>
+            <div class="flex flex-wrap gap-3">
+              <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Java</span>
+              <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Python</span>
+              <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">JavaScript</span>
+              <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">HTML</span>
+              <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">CSS</span>
+              <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">MySQL</span>
+              <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Git</span>
+              <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium">Github</span>
+            </div>
+          </div>
+          
+          <div class="mb-8">
+            <h4 class="font-bold text-gray-700 mb-3">Soft Skills</h4>
+            <div class="flex flex-wrap gap-3">
+              <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">Problem Solving</span>
+              <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">Teamwork</span>
+              <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">Communication</span>
+              <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">Time Management</span>
+              <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">Strong Decision Making</span>
+              <span class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium">Adaptability</span>
+            </div>
+          </div>
+          
+          <h3 class="text-2xl font-semibold mb-4 text-gray-800">Certifications</h3>
+          <ul class="list-disc list-inside text-gray-600 space-y-2">
+            <li>Professional Certificate in Web Development – IIT PDU (2024)</li>
+            <li>Professional Certificate in AI – IIT PDU (2024)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-100 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 hover:-translate-y-2">
+          <img src="img2.png" alt="UN SDGs Website" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">UN SDGs Website</h3>
+            <p class="text-gray-600 mb-4">WCAG-compliant responsive website with interactive UI and form validation.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">HTML5</span>
+              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">CSS3</span>
+              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">JavaScript</span>
+            </div>
+            <a href="#" class="text-blue-600 hover:underline font-medium">View Project →</a>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 hover:-translate-y-2">
+          <img src="img3.png" alt="Traffic Data Analysis" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Traffic Data Analysis</h3>
+            <p class="text-gray-600 mb-4">Processed 10,000+ data points and automated HTML reports using Python.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">Python</span>
+              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">Tkinter</span>
+              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">Data Analysis</span>
+            </div>
+            <a href="#" class="text-blue-600 hover:underline font-medium">View Project →</a>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 hover:-translate-y-2">
+          <img src="img4.png" alt="Grid Percolation Simulator" class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Grid Percolation Simulator</h3>
+            <p class="text-gray-600 mb-4">Algorithm for probabilistic grid simulation with dynamic matrices.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">Python</span>
+              <span class="bg-gray-200 px-3 py-1 rounded-full text-sm">Algorithms</span>
+            </div>
+            <a href="#" class="text-blue-600 hover:underline font-medium">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-semibold mb-6 text-gray-800">Contact Information</h3>
+          <div class="space-y-5">
+            <div class="flex items-start">
+              <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                <i class="fas fa-envelope text-yellow-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800">Email</h4>
+                <a href="mailto:example@email.com" class="text-gray-600 hover:text-yellow-600">example@email.com</a>
+              </div>
+            </div>
+            
+            <div class="flex items-start">
+              <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                <i class="fab fa-github text-yellow-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800">GitHub</h4>
+                <a href="#" class="text-gray-600 hover:text-yellow-600">github.com/yourprofile</a>
+              </div>
+            </div>
+            
+            <div class="flex items-start">
+              <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                <i class="fab fa-linkedin-in text-yellow-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-gray-800">LinkedIn</h4>
+                <a href="#" class="text-gray-600 hover:text-yellow-600">linkedin.com/in/yourprofile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Get In Touch</h2>
+          <form class="space-y-6">
+            <input type="text" placeholder="Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500">
+            <input type="email" placeholder="Email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500">
+            <textarea rows="4" placeholder="Message" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500"></textarea>
+            <button type="submit" class="w-full bg-yellow-500 text-gray-900 font-bold py-3 rounded-lg hover:bg-yellow-600 transition">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <div class="flex justify-center space-x-6 mb-6">
+        <a href="#" class="text-gray-400 hover:text-yellow-400">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-yellow-400">
+          <i class="fab fa-linkedin-in text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-yellow-400">
+          <i class="fab fa-twitter text-xl"></i>
+        </a>
+      </div>
+      <p>&copy; 2025 Murugeshkumar Senthuran. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Mobile menu toggle
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Typed.js animation
+    var typed = new Typed("#typed", {
+      strings: ["Software Engineer", "Problem Solver", "Web Developer", "Tech Enthusiast"],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
+  </script>
+</body>
+</html>
