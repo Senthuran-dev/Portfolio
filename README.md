@@ -1,4 +1,4 @@
-# Personal Portfolio - Murugeshkumar Senthuran
+# Personal Portfolio
 
 This portfolio project was built as part of a Tailwind CSS bootcamp challenge. I developed it using only HTML and Tailwind CSS, focusing on responsive design, clean UI, and usability. 
 Throughout the project, I explored Tailwind’s utility-first classes to style various sections like Home, About, Projects, and Contact. I also implemented smooth scrolling, hover effects, 
